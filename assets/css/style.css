@@ -104,6 +104,10 @@ body::-webkit-scrollbar-thumb:hover{
     background: hsl(0, 0%, 70%);
 }
 
+/*======== Reused Style =========*/
+.container{
+    padding: 0 15px;
+}
 
 
 /*========== Main =========*/
@@ -336,4 +340,35 @@ body::-webkit-scrollbar-thumb:hover{
 .toast-meta{
     font-size: var(--fs-10);
     color: var(--sonic-silver);
+}
+
+/*========= Header & Nav =========*/
+.header-top,
+.header-user-actions,
+.desktop-navigation-menu{
+    display: none;
+}
+.header-main{
+    padding: 20px 0;
+    border-bottom: 1px solid var(--cultured);
+}
+
+.header-logo{
+    margin-bottom: 20px;
+    display: flex;
+}
+.header-logo img{
+    margin: auto;
+}
+.header-search-container{
+    position: relative;
+}
+
+.header-search-container .search-field{
+    font-size: var(--fs-7);
+    color: var(--onyx);
+    padding: 10px 15px;
+    padding-right: 50px;
+    border: 1px solid var(--cultured);
+    border-radius: var(--border-radius-md);
 }
